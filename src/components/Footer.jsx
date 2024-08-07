@@ -5,12 +5,13 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 function Footer() {
   return (
-    <footer id="footer" className="bg-gray-800 text-white p-4 text-center text-xl">
+    <footer id="footer" className="bg-gray-800 text-white p-4 text-center text-xl ">
       <p>&copy; 2024 Initiators of Change. All rights reserved.</p>
       <div className="flex justify-center space-x-6 mt-4">
         <a href="tel:8752901502" className="flex items-center space-x-2">
           <FontAwesomeIcon icon={faPhone} />
-          <span>+918752901502</span>
+          <span>+918752901502<br />
+          +919876920114</span>
         </a>
         <a href="mailto:info@initiatorsofchange.com" className="flex items-center space-x-2">
           <FontAwesomeIcon icon={faEnvelope} />
